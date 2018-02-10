@@ -4,7 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Claire Galya</title>
 </head>
@@ -13,70 +18,125 @@
 
 <!--NAVBAR-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-  <a class="navbar-brand" href="#">Claire Galya</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <a id="logo" class="navbar-brand" href="#">Claire Galya</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" id="about" href="#">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Portfolio</a>
+        <a class="nav-link" id="portfolio-link" href="#">Portfolio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" id="contact" href="#">Contact</a>
       </li>
     </ul>
   </div>
 </nav>
 
-<!--INTRO-->
-<div class="intro-wrapper">
-  <div class="intro-words">
-    <div class="intro-content">
-      <img class="profile-pic" src="assets/images/profile-pic.JPG" alt="">
-      <h1 id="name">Claire Galya</h1>
-      <div class="bar"></div>
-      <p>full-stack web developer with a passion for creativity and innovation</p>
-      <p>based in boston, ma</p>
+<div class="main">
+
+  <!--INTRO-->
+  <div class="intro-wrapper">
+    <div class="intro-words">
+      <div class="intro-content">
+        <img class="profile-pic" src="assets/images/profile-pic.JPG" alt="">
+        <h1 id="name">Claire Galya</h1>
+        <p>front-end web developer</p>
+      </div>
     </div>
   </div>
-  <div class="chevrons">
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
-    <div><b></b><b></b><b></b><b></b><b></b></div>
+
+  <!--ABOUT-->
+  <div class="about-wrapper">
+    <h2>About Claire</h2>
+    <div class="about-text">
+      <ul>
+        <li><i class="fas fa-code"></i> Front-end engineer at ioVita, a healthcare startup, August
+          2017 to present
+        </li>
+        <li><i class="fas fa-code"></i> Web Development Certificate from UMass Amherst, December 2017</li>
+        <li><i class="fas fa-code"></i> B.A. from Brown University, M.Ed. from Antioch University</li>
+        <li><i class="fas fa-code"></i> Science and elementary educator from 2009 - 2016</li>
+        <li><i class="fas fa-code"></i> Skills: React, HTML5, CSS3, JavaScript, jQuery, Node.JS, MySQL, PostgreSQL,
+          MongoDB, GraphQL, Management and Interpersonal skills
+        </li>
+      </ul>
+    </div>
   </div>
 
+  <!--PORTFOLIO-->
+  <div class="portfolio-wrapper">
+    <h2>Recent Work</h2>
+    <div class="work">
+      <div class="thumbnail">
+        <a class="thumbnail-title" href="https://preview.mmj.org" target="_blank"><h3>MMJ.org</h3></a>
+        <a href="https://preview.mmj.org" target="_blank">
+          <img src="assets/images/mmj.png" class="img-fluid" alt="">
+        </a>
+      </div>
+      <div class="thumbnail">
+        <a class="thumbnail-title" href="https://mmj-survey-dev.netlify.com" target="_blank"><h3>Patient Survey</h3></a>
+        <a href="https://mmj-survey-dev.netlify.com" target="_blank">
+          <img src="assets/images/survey.png" class="img-fluid" alt="">
+        </a>
+      </div>
+      <div class="thumbnail">
+        <a class="thumbnail-title" href="https://podtalk.herokuapp.com" target="_blank"><h3>podtalk</h3></a>
+        <a href="https://podtalk.herokuapp.com" target="_blank">
+          <img src="assets/images/podtalk.png" class="img-fluid" alt="">
+        </a>
+      </div>
+      <div class="thumbnail">
+        <a class="thumbnail-title" href="https://nyt-claire.herokuapp.com" target="_blank"><h3>React Article Saver</h3>
+        </a>
+        <a href="https://nyt-claire.herokuapp.com" target="_blank">
+          <img src="assets/images/nyt.png" class="img-fluid" alt="">
+        </a>
+      </div>
+      <div class="thumbnail">
+        <a class="thumbnail-title" href="https://hub4u.herokuapp.com" target="_blank"><h3>Hub4U</h3></a>
+        <a href="https://hub4u.herokuapp.com" target="_blank">
+          <img src="assets/images/hub4u.png" class="img-fluid" alt="">
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+  <!--CONTACT-->
+  <div class="contact-wrapper">
+    <h2>Contact</h2>
+    <div class="contact-text">
+      <div><i class="fas fa-envelope fa-5x"></i>claire.galya@gmail.com</div>
+      <div>
+        <i class="fab fa-github fa-5x"></i>
+        <a href="https://github.com/cgalya" target="_blank">github.com/cgalya</a>
+      </div>
+      <div>
+        <i class="fab fa-linkedin fa-5x"></i>
+        <a href="https://linkedin.com/in/claire-galya" target="_blank">linkedin.com/in/claire-galya</a>
+      </div>
+    </div>
+  </div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script
+    src="http://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<script src="assets/javascript/flowtype.js"></script>
 <script src="assets/javascript/app.js"></script>
 </body>
 </html>
