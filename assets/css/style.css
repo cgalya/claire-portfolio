@@ -56,7 +56,7 @@ p {
 /*INTRO*/
 
 .intro-wrapper {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .intro-words {
@@ -98,7 +98,7 @@ p {
 /*ABOUT*/
 
 .about-wrapper {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   padding: 0 110px 50px 110px;
@@ -179,7 +179,7 @@ margin-bottom: 40px;
 /*CONTACT*/
 
 .contact-wrapper {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -246,6 +246,22 @@ margin-bottom: 40px;
 
   .about-wrapper h2, .portfolio-wrapper h2 {
     text-align: center;
+  }
+
+  .contact-text {
+    justify-content: center;
+  }
+
+  .contact-wrapper h2 {
+    margin-top: 80px;
+  }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+  .contact-text div {
+    margin: 30px 0 30px 0;
   }
 
 }
