@@ -217,6 +217,35 @@ margin-bottom: 40px;
   background-color: #000;
 }
 
+/*.revealOnScroll {*/
+  /*opacity: 0;*/
+/*}*/
+
+.animated {
+  animation: pop-up cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.one {
+  animation-duration: 0.5s;
+}
+
+.two {
+  animation-duration: 0.7s;
+}
+
+.three {
+  animation-duration: 0.9s;
+}
+
+@keyframes pop-up {
+  0% {
+    opacity: 0;
+    transform: translate3d(0,500px,0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 /*MEDIA QUERIES*/
 
