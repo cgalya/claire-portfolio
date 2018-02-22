@@ -63,8 +63,8 @@
         <li><i class="fas fa-code"></i> Web Development Certificate from UMass Amherst, December 2017</li>
         <li><i class="fas fa-code"></i> B.A. from Brown University, M.Ed. from Antioch University</li>
         <li><i class="fas fa-code"></i> Science and elementary educator from 2009 - 2016</li>
-        <li><i class="fas fa-code"></i> Skills: React, HTML5, CSS3, JavaScript, jQuery, Node.JS, MySQL, PostgreSQL,
-          MongoDB, GraphQL, Management and Interpersonal skills
+        <li><i class="fas fa-code"></i> Skills: React, HTML5, CSS3, JavaScript, jQuery, SCSS, Node.JS, Express,
+          Bootstrap, Git, Responsive Design, MySQL, PostgreSQL, MongoDB, GraphQL, Management and Interpersonal skills
         </li>
       </ul>
     </div>
@@ -74,37 +74,37 @@
   <div class="portfolio-wrapper">
     <h2>Recent Work</h2>
     <div class="work">
-      <div class="thumbnail">
-        <a class="thumbnail-title" href="https://preview.mmj.org" target="_blank"><h3>MMJ.org</h3></a>
-        <a href="https://preview.mmj.org" target="_blank">
-          <img src="assets/images/mmj.png" class="img-fluid" alt="">
-        </a>
+      <!--<div id="modal-trigger-one" class="thumbnail">-->
+        <!--<h3>MMJ.org</h3>-->
+        <!--<img src="assets/images/mmj.png" class="img-fluid" alt="">-->
+      <!--</div>-->
+      <div id="modal-trigger-two" class="thumbnail">
+        <h3>Patient Survey</h3>
+        <img src="assets/images/survey.png" class="img-fluid" alt="">
       </div>
-      <div class="thumbnail">
-        <a class="thumbnail-title" href="https://mmj-survey-dev.netlify.com" target="_blank"><h3>Patient Survey</h3></a>
-        <a href="https://mmj-survey-dev.netlify.com" target="_blank">
-          <img src="assets/images/survey.png" class="img-fluid" alt="">
-        </a>
+      <div id="modal-trigger-three" class="thumbnail">
+        <h3>podtalk</h3>
+        <img src="assets/images/podtalk.png" class="img-fluid" alt="">
       </div>
-      <div class="thumbnail">
-        <a class="thumbnail-title" href="https://podtalk.herokuapp.com" target="_blank"><h3>podtalk</h3></a>
-        <a href="https://podtalk.herokuapp.com" target="_blank">
-          <img src="assets/images/podtalk.png" class="img-fluid" alt="">
-        </a>
+      <div id="modal-trigger-four" class="thumbnail">
+        <h3>React Article Collector</h3>
+        <img src="assets/images/nyt.png" class="img-fluid" alt="">
       </div>
-      <div class="thumbnail">
-        <a class="thumbnail-title" href="https://nyt-claire.herokuapp.com" target="_blank"><h3>React Article Saver</h3>
-        </a>
-        <a href="https://nyt-claire.herokuapp.com" target="_blank">
-          <img src="assets/images/nyt.png" class="img-fluid" alt="">
-        </a>
+      <div id="modal-trigger-five" class="thumbnail">
+        <h3>Hub4U</h3>
+        <img src="assets/images/hub4u.png" class="img-fluid" alt="">
       </div>
-      <div class="thumbnail">
-        <a class="thumbnail-title" href="https://hub4u.herokuapp.com" target="_blank"><h3>Hub4U</h3></a>
-        <a href="https://hub4u.herokuapp.com" target="_blank">
-          <img src="assets/images/hub4u.png" class="img-fluid" alt="">
-        </a>
-
+      <div id="modal-trigger-six" class="thumbnail">
+        <h3>Lab Locator</h3>
+        <img src="assets/images/lablocator.png" class="img-fluid" alt="">
+      </div>
+      <div id="modal-trigger-seven" class="thumbnail">
+        <h3>Eat Some Burgers!</h3>
+        <img src="assets/images/burgers.png" class="img-fluid" alt="">
+      </div>
+      <div id="modal-trigger-eight" class="thumbnail">
+        <h3>Rock Paper Scissors Multiplayer</h3>
+        <img src="assets/images/rps.png" class="img-fluid" alt="">
       </div>
     </div>
   </div>
@@ -127,6 +127,209 @@
       </div>
     </div>
   </div>
+</div>
+
+<!--MODALS-->
+<div>
+  <div id="modal-one" class="modal">
+    <div class="modal-content">
+      <span id="close-one" class="close">&times;</span>
+      <div class="thumbnail thumbnail-modal">
+        <a class="thumbnail-title" href="https://preview.mmj.org" target="_blank"><h3>MMJ.org</h3></a>
+        <ul>
+          <li>
+            Preview of a multifaceted patient-centered content and community platform for the healthcare sector for
+            ioVita, PBC
+          </li>
+          <li>
+            From the landing page, users are directed to a natural language form, which selects personalized content
+          </li>
+          <li>
+            React front-end, Node.js, Express, GraphQL, PostgreSQL
+          </li>
+          <li>
+            Collaborated with a team of engineers on the entire project, sole developer of React UI
+          </li>
+        </ul>
+        <a href="https://preview.mmj.org" target="_blank">
+          <img src="assets/images/mmj.png" class="img-fluid" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="modal-two" class="modal">
+    <div class="modal-content">
+      <span id="close-two" class="close">&times;</span>
+      <div class="thumbnail thumbnail-modal">
+        <a class="thumbnail-title" href="https://mmj-survey-dev.netlify.com" target="_blank"><h3>Patient Survey</h3></a>
+        <ul>
+          <li>
+            Full-screen, one question per page, dynamic survey for ioVita, PBC
+          </li>
+          <li>
+            Patient health status survey intended for longitudinal observational studies by clinicians and patient
+            self-monitoring
+          </li>
+          <li>
+            Collaborated with a team of engineers on the entire project, sole developer for the front-end work
+          </li>
+        </ul>
+        <a href="https://mmj-survey-dev.netlify.com" target="_blank">
+          <img src="assets/images/survey.png" class="img-fluid" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="modal-three" class="modal">
+    <div class="modal-content">
+      <span id="close-three" class="close">&times;</span>
+      <div class="thumbnail thumbnail-modal">
+        <a class="thumbnail-title" href="https://podtalk.herokuapp.com" target="_blank"><h3>podtalk</h3></a>
+        <a class="github" href="https://www.github.com/cgalya/podtalk" target="_blank">Github</a>
+        <ul>
+          <li>
+            Social podcast sharing application where users can join conversations around individual podcast episodes as
+            they are released
+          </li>
+          <li>
+            Utilizes the iTunes search api to retrieve the RSS feed for each podcast and converts that feed into JSON
+          </li>
+          <li>
+            Sole developer of React UI, team lead
+          </li>
+          <li>
+            React front-end, Express, Node.js, MySQL
+          </li>
+        </ul>
+        <a href="https://podtalk.herokuapp.com" target="_blank">
+          <img src="assets/images/podtalk.png" class="img-fluid" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="modal-four" class="modal">
+    <div class="modal-content">
+      <span id="close-four" class="close">&times;</span>
+      <div class="thumbnail thumbnail-modal">
+        <a class="thumbnail-title" href="https://nyt-claire.herokuapp.com" target="_blank"><h3>React Article Collector</h3>
+        </a>
+        <a class="github" href="https://www.github.com/cgalya/NYT-Search-React" target="_blank">Github</a>
+        <ul>
+          <li>
+            New York Times article scraper - users can search for and save articles
+          </li>
+          <li>
+            Utilizes helper functions and the React component lifecycle to query and display articles based on user
+            searches
+          </li>
+          <li>
+            React front-end, MongoDB, Express, Node.js
+          </li>
+          <li>
+            Sole developer
+          </li>
+        </ul>
+        <a href="https://nyt-claire.herokuapp.com" target="_blank">
+          <img src="assets/images/nyt.png" class="img-fluid" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="modal-five" class="modal">
+    <div class="modal-content">
+      <span id="close-five" class="close">&times;</span>
+      <div class="thumbnail thumbnail-modal">
+        <a class="thumbnail-title" href="https://hub4u.herokuapp.com" target="_blank"><h3>Hub4U</h3></a>
+        <a class="github" href="https://www.github.com/cgalya/Hub4U" target="_blank">Github</a>
+        <ul>
+          <li>
+            App for finding directions to use with the Hubway bike sharing system in Boston, MA.
+          </li>
+          <li>
+            Users enter a start and end location, and Hub4U determines the closest Hubway stations to both locations as well as biking and walking directions.
+          </li>
+          <li>
+            jQuery, Handlebars, Node, Express, Google Maps API
+          </li>
+        </ul>
+        <a href="https://hub4u.herokuapp.com" target="_blank">
+          <img src="assets/images/hub4u.png" class="img-fluid" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="modal-six" class="modal">
+    <div class="modal-content">
+      <span id="close-six" class="close">&times;</span>
+      <div class="thumbnail thumbnail-modal">
+        <a class="thumbnail-title" href="https://cgalya.github.io/LabLocator/" target="_blank"><h3>Lab Locator</h3></a>
+        <a class="github" href="https://www.github.com/cgalya/LabLocator" target="_blank">Github</a>
+        <ul>
+          <li>
+            Patients can search for a laboratory near their location by entering an address and distance radius
+          </li>
+          <li>
+            Using the Google Maps API, a list of labs within the search radius containing detailed logistical
+            information and an individualized map is returned to the user
+          </li>
+          <li>
+            Worked in a team of developers
+          </li>
+        </ul>
+        <a href="https://cgalya.github.io/LabLocator/" target="_blank">
+          <img src="assets/images/lablocator.png" class="img-fluid" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="modal-seven" class="modal">
+    <div class="modal-content">
+      <span id="close-seven" class="close">&times;</span>
+      <div class="thumbnail thumbnail-modal">
+        <a class="thumbnail-title" href="https://burger-claire.herokuapp.com/" target="_blank"><h3>Eat Some Burgers!</h3></a>
+        <a class="github" href="https://www.github.com/cgalya/Eat-Some-Burgers" target="_blank">Github</a>
+        <ul>
+          <li>
+            Users enter information, which is saved to a MySQL database, then rendered to the page
+          </li>
+          <li>
+            Users can also reclassify information, such as moving a burger from the 'available' list to the 'eaten' list
+          </li>
+          <li>
+            MySQL, Node, Express, Handlebars, JavaScript
+          </li>
+        </ul>
+        <a href="https://burger-claire.herokuapp.com/" target="_blank">
+          <img src="assets/images/burgers.png" class="img-fluid" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="modal-eight" class="modal">
+    <div class="modal-content">
+      <span id="close-eight" class="close">&times;</span>
+      <div class="thumbnail thumbnail-modal">
+        <a class="thumbnail-title" href="https://cgalya.github.io/RPS-Multiplayer/" target="_blank"><h3>Rock Paper Scissors Multiplayer</h3></a>
+        <a class="github" href="https://www.github.com/cgalya/RPS-Multiplayer" target="_blank">Github</a>
+        <ul>
+          <li>
+            A multiplayer version of the classic Rock Paper Scissors using Firebase.
+          </li>
+          <li>
+            Two players can play at a time. Both pick either rock, paper, or scissors. Each player can see only their
+            own choice. When both players have chosen, the game reveals who won or lost or whether a tie occurred.
+          </li>
+          <li>
+            Includes a chat window through which players can communicate with each other.
+          </li>
+        </ul>
+        <a href="https://cgalya.github.io/RPS-Multiplayer/" target="_blank">
+          <img src="assets/images/rps.png" class="img-fluid" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <script
